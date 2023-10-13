@@ -1,16 +1,33 @@
-# venturo_core
+# Venturo Core
 
-A new Flutter project.
+Venturo Core adalah Sebuah Sekeleton yang dibuat menggunakan State Management Get X yang dipadukan dengan Flutter Util Screen, untuk memudahkan programmer dalam memulai sebuah Project di [Venturo Pro Indonesia][https://venturo.id/].
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Install deangan cara seperti berikut :
 
-A few resources to get you started if this is your first Flutter project:
+- Clone git project
+- Ubah nama folder sesuai dengan nama package name
+- Ubah package name mengunakan plugin [change_app_package_name][https://pub.dev/packages/change_app_package_name]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Change Color
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Untuk mengubah color settingan color berada di folder lib/shared/style/color_style.dart sesuai dengan SOP Flutter Basic
+
+## Change Text Style
+
+Untuk mengubah color settingan color berada di folder lib/shared/style/google_text_style.dart sesuai dengan SOP Flutter Basic
+
+## Generator
+
+Generator dibuat untuk memudahkan programmer dalam membuat sebuah fitur maupun sub fitur dan cara pengunaan seperti berikut : 
+
+Jalankan kode berikut untuk memulai proses generator :
+
+```bash
+dart generator.dart
+```
+
+Pilihlah fitur atau sub fitur yang akan di buat.
+
+Jika Masih bingung bisa menghubungsi mentor kamu melalui discord / Wa ke mentor kamu.
