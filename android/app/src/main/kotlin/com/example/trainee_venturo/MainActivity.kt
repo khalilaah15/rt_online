@@ -1,4 +1,4 @@
-package com.example.venturo_core
+package com.example.trainee_venturo
 
 import io.flutter.embedding.android.FlutterActivity
 

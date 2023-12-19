@@ -39,9 +39,19 @@ dependencies:
   flutter_screenutil: ^5.9.0
   google_fonts: ^6.1.0
   change_app_package_name: ^1.1.0
+  flutter_localization: ^0.1.14
 
   # Signature
   fast_rsa: ^3.6.1
+  firebase_core: ^2.24.2
+  firebase_analytics: ^10.7.4
+  sentry_flutter: ^7.13.2
+  flutter_easyloading: ^3.0.5
+  panara_dialogs: ^0.1.4
+  hive_flutter: ^1.1.0
+  dio: ^5.4.0
+  pinput: ^3.0.1
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -59,6 +69,10 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/images/logo.png
+    - assets/images/mask.png
+    - assets/images/peraturan.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -66,8 +80,6 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

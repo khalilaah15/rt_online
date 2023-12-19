@@ -24,14 +24,19 @@ class MyApp extends StatelessWidget {
         return GetMaterialApp(
           title: 'Venturo Core',
           debugShowCheckedModeBanner: false,
-          locale: const Locale('id'),
-          fallbackLocale: const Locale('id'),
-          supportedLocales: const [
-            Locale('en', 'US'),
-            Locale('id'),
-          ],
+          // locale: const Locale('id'),
+          // fallbackLocale: const Locale('id'),
+          // supportedLocales: const [
+          //   Locale('en', 'US'),
+          //   Locale('id'),
+          // ],
+          // localizationsDelegates: [
+          //   GlobalMaterialLocalizations.delegate,
+          //   GlobalWidgetsLocalizations.delegate,
+          //   GlobalCupertinoLocalizations.delegate,
+          // ],
           // initialBinding: , Jika memiliki global bindding
-          initialRoute: Routes.splashRoute,
+          initialRoute: Routes.signIn,
           theme: themeLight,
           defaultTransition: Transition.native,
           getPages: Pages.pages,
