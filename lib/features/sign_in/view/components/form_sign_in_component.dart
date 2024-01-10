@@ -1,9 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class FormSignInCompoent extends StatelessWidget {
-  const FormSignInCompoent({super.key});
-  
+class FormSignInCompoent extends StatefulWidget {
+  @override
+  _FormSignInCompoentState createState() => _FormSignInCompoentState();
+}
+
+class _FormSignInCompoentState extends State<FormSignInCompoent> {
+  bool _obscureText = true;
    @override
   Widget build(BuildContext context) {
     return Form(
@@ -92,25 +96,40 @@ class FormSignInCompoent extends StatelessWidget {
                 )
               ],
             ),
-            child: const TextField(
+            child: Row(
+              children: [
+                Expanded(
+            child: TextField(
+              obscureText: _obscureText,
               decoration: InputDecoration(
                 hintText: 'Masukkan password',
+                suffixIcon: IconButton(icon: Icon(_obscureText ? Icons.visibility : Icons.visibility_off,
+                color: _obscureText ? Colors.blue : Colors.grey,
+                ),
+                onPressed: () {
+                  setState(()
+                  {
+                    _obscureText = !_obscureText; 
+                  });
+                },
+                ),
                 hintStyle: TextStyle(
                   color: Color(0xFF9597A3),
                   fontSize: 13,
                   fontFamily: 'Nunito',
                   fontWeight: FontWeight.w400,
                   height: 0,
-                ),
-                
-                fillColor: Colors.white,
+                ),fillColor: Colors.white,
                 filled: true,
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.all(14),
               ),
             ),
           ),
-        ],
+      ]
+      )
+      )
+      ],
       ),
     );
   }

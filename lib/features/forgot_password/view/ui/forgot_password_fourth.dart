@@ -100,46 +100,45 @@ class ForgotPasswordFourth extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const FormForgotPasswordFourth(),
+                    FormForgotPasswordFourth(),
                     const SizedBox(height: 30),
                     Align(
-                alignment: Alignment.center,
-                child: GestureDetector(
-                  onTap: () {
-                        Get.to(SignInScreen());
-                      },
-                  child: Container(
-                    width: 382,
-                    height: 54,
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 16, vertical: 15),
-                    clipBehavior: Clip.antiAlias,
-                    decoration: ShapeDecoration(
-                      gradient: const LinearGradient(
-                        end: Alignment(0.90, -0.44),
-                        begin: Alignment(-0.9, 0.44),
-                        colors: [Color(0xFF6EE2F5), Color(0xFF6454F0)],
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                    ),
-                    child: const Center(
-                      child: Text(
-                        'Simpan',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontFamily: 'Nunito',
-                          fontWeight: FontWeight.w700,
-                          height: 0,
+                      alignment: Alignment.center,
+                      child: GestureDetector(
+                        onTap: () {
+                          Get.to(SignInScreen());
+                        },
+                        child: Container(
+                          width: 382,
+                          height: 54,
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 16, vertical: 15),
+                          clipBehavior: Clip.antiAlias,
+                          decoration: ShapeDecoration(
+                            gradient: const LinearGradient(
+                              end: Alignment(0.90, -0.44),
+                              begin: Alignment(-0.9, 0.44),
+                              colors: [Color(0xFF6EE2F5), Color(0xFF6454F0)],
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                          ),
+                          child: const Center(
+                            child: Text(
+                              'Simpan',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                                fontFamily: 'Nunito',
+                                fontWeight: FontWeight.w700,
+                                height: 0,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                ),
-              ),
-
                     const SizedBox(height: 150),
                     Center(
                         child: Column(

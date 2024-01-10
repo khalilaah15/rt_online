@@ -106,9 +106,9 @@ class ForgotPasswordScreen extends StatelessWidget {
                   ]),
               Container(
                 width: 150,
-                height: 150,
+                height: 160,
                 padding: const EdgeInsets.all(8),
-                child: Row(
+                child: Column(
                   mainAxisSize: MainAxisSize.min,
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -119,7 +119,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                         decoration: const ShapeDecoration(
                           image: DecorationImage(
                             image: NetworkImage(
-                                "https://via.placeholder.com/134x134"),
+                                "https://pbs.twimg.com/media/EbPxugBUMAAmzj1.jpg"),
                             fit: BoxFit.fill,
                           ),
                           shape: OvalBorder(),
@@ -134,7 +134,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(4)),
                       ),
-                      child: const Row(
+                      child: const Column(
                         mainAxisSize: MainAxisSize.min,
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -156,7 +156,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 10),
-              const FormForgotPasswordCompoent(),
+              FormForgotPasswordCompoent(),
               const SizedBox(height: 30),
               Align(
                   alignment: Alignment.center,

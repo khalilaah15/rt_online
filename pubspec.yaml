@@ -73,6 +73,29 @@ flutter:
     - assets/images/logo.png
     - assets/images/mask.png
     - assets/images/peraturan.png
+    - assets/images/home.png
+    - assets/images/home_2.png
+    - assets/images/iuran.png
+    - assets/images/iuran_2.png
+    - assets/images/stuktur.png
+    - assets/images/stuktur_2.png
+    - assets/images/camera2.png
+    - assets/images/tata.png
+    - assets/images/tata_2.png
+    - assets/images/announcement.png
+    - assets/images/informasi.png
+    - assets/images/tertib.png
+    - assets/images/pin.png
+    - assets/images/terbayar.png
+    - assets/images/ic_profile.png
+    - assets/images/ubah.png
+    - assets/images/logout.png
+    - assets/images/camera.png
+    - assets/images/pen.png
+    - assets/images/document.png
+    - assets/images/image.png
+    - assets/images/search.png
+    - assets/images/money.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

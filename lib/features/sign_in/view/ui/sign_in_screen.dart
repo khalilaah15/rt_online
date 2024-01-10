@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:venturo_core/constants/cores/assets/images_constants.dart';
+import 'package:venturo_core/features/beranda/view/ui/beranda_screen.dart';
 import 'package:venturo_core/features/dashboard/view/ui/dashboard_screen.dart';
 import 'package:venturo_core/features/forgot_password/view/ui/forgot_password_screen.dart';
 import 'package:venturo_core/features/sign_in/constants/sign_in_assets_constant.dart';
@@ -77,7 +78,7 @@ class SignInScreen extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 40),
-              const FormSignInCompoent(),
+              FormSignInCompoent(),
               Align(
                 alignment: Alignment.centerRight,
                 child: TextButton(
@@ -99,7 +100,7 @@ class SignInScreen extends StatelessWidget {
                   alignment: Alignment.center,
                   child: GestureDetector(
                       onTap: () {
-                        Get.to(DashboardScreen());
+                        Get.to(BerandaScreen());
                       },
                       child: Container(
                         width: 382,

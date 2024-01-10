@@ -5,4 +5,12 @@ abstract class Routes {
 static const String signInRoute = '/sign_in';
 static const String forgotPasswordRoute = '/forgot_password';
 static const String dashboardRoute = '/dashboard';
+static const String berandaRoute = '/beranda';
+static const String tataTertibRoute = '/tata_tertib';
+static const String iuranWargaRoute = '/iuran_warga';
+static const String stukturRTRoute = '/stuktur_rt';
+static const String contohRoute = '/contoh';
+static const String profileRoute = '/profile';
+static const String bannerRoute = '/banner';
+static const String dataWargaRoute = '/data_warga';
 }
